@@ -1,0 +1,86 @@
+48  mkdir folder1
+   49  ls
+   50  mkdir folder1
+   51  ls
+   52  mkdir folder2 folder3 folder4
+   53  ls
+   54  cd folder1
+   55  pwd
+   56  touch file1.txt
+   57  touch file2.txt
+   58  ls
+   59  cat>file2.txt
+   60  ls
+   61  ls ltr
+   62  ls file2.txt
+   63  cat file2,txt
+   64  cat file2.txt
+   65  pwd
+   66  cd
+   67  pwd
+   68  cd rtr
+   69  cd folder1
+   70  pwd
+   71  ls
+   72  ls
+   73  ping google.com
+   74  history
+   75  hostname
+   76  hostname-i
+   77  hostname -i
+   78  ssh-keygen
+   79  mkdir  Devops
+   80  cd Devops/
+   81  git clone https://github.com/bharath-000-sys/project1.git
+   82  ls -ltr
+   83  cd project1/
+   84  ls -la
+   85  cd ../
+   86  ls -ltr
+   87  cd project1/
+   88  echo "this is my first file" > file1.txt
+   89  echo "this is my first file"
+   90  echo "this is my second file" >> file1.txt
+   91  cat file1.txt
+   92  git status
+   93  git add file1.txt
+   94  git status
+   95  echo "this is my first file" >> file2.txt
+   96  git status
+   97  git add .
+   98  git status
+   99  echo "this is my second file" >> file2.txt
+  100  git status
+  101  git add .
+  102  git status
+  103  git rm --cached file1.txt
+  104  ls -ltr
+  105  git status
+  106  ls -ltr
+  107  git add .
+  108  git commit -m "these are 2 files"
+  109  git remote -v
+  110   git config --global user.email "bharathrockzz74@gmail.com"
+  111  git config -v
+  112  git config --list
+  113  git commit -m "these are 2 files"
+  114  git status
+  115  git log --oneline
+  116  git push
+  117  vim file3.txt
+  118  git status
+  119  git add .
+  120  git commit -m " i have added third file"
+  121  git push
+  122  git clone https://github.com/bharath-000-sys/project1.git
+  123  ls -ltr
+  124  cd project1/
+  125  ls -ltr
+  126  touch f1 f2 f3
+  127  ls -ltr
+  128  git status
+  129  git add .
+  130  git commit -m "files addes"
+  131  git push
+  132  history
+
